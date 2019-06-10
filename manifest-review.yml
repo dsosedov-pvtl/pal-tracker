@@ -1,0 +1,10 @@
+---
+applications:
+- name: pal-tracker
+  path: src/PalTracker/bin/Release/netcoreapp2.2/publish/
+  routes:
+  - route: pal-tracker-dsosedov-review.apps.pcfone.io
+  memory: 512M
+  disk quota: 512M
+  env:
+    WELCOME_MESSAGE: Hello from Cloud Foundry
