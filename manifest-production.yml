@@ -3,7 +3,7 @@ applications:
 - name: pal-tracker
   path: src/PalTracker/bin/Release/netcoreapp2.1/publish/
   routes:
-  - route: pal-tracker-dsosedov.apps.pcfone.io
+  - route: pal-tracker-dsosedov.cfapps.io
   memory: 512M
   disk_quota: 512M
   env:
